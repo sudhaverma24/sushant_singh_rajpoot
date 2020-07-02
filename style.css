@@ -1,0 +1,51 @@
+body {
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+a {
+  color: #b55400;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Stalemate', cursive;
+  font-size: 6.25rem;
+  background: linear-gradient(to top, #393e46, #b55400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#img-div {
+  background-color: #393e46;
+  text-align: center;
+  padding: 0;
+  margin: 0 70px;
+  align-items: center;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#img-caption {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.2rem;
+  padding: 20px 0;
+}
+
+#tribute-info {
+  margin: 0 70px;
+  padding: 40px 0;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
